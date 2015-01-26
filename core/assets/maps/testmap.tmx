@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="25" tilewidth="32" tileheight="32" backgroundcolor="#ff00ff">
+ <tileset firstgid="1" name="test_tileset" tilewidth="32" tileheight="32">
+  <image source="../tileset/test_tileset.png" width="1120" height="736"/>
+ </tileset>
+ <layer name="derp" width="35" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WR05CURgF4AtMFHUBFmAX9oLuAnvdhb1vxL4R+8QCbMQCDPyWgAO5mLyTfMmfc6YveTeEJEmaT0c6hE6ydNFNTzpOX6ZCtQ3uGnUabXDnMiHkKWTi3y++mVfeeKdMhWpo/fbBJ198U6NOI8LWmwqhj34GyJGnkGr9Ns4Ek0xRZJqZCNsSy6ywyhrrbETY9jngkCOOOeE0wnbGORdccsU1NxG2W+6454FHnniOsA0yxDAjjDIWqS8xyxzzLLAYqd9ki2122GUvUv/bf/1fviOSJPmv+QG6c5DUrA0AAA==
+  </data>
+ </layer>
+ <layer name="collision" width="35" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMAtqAzTgwseqoiUfBKBgFlAN65NXRPD0KRsEoGAUIAAD4gQ5rrA0AAA==
+  </data>
+ </layer>
+</map>
