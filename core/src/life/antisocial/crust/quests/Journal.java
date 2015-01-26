@@ -8,11 +8,17 @@ public class Journal {
     protected List<Quest> active;
     protected List<Quest> completed;
     protected List<Quest> failed;
+    protected List<JournalEntry> journal;
 
     public Journal() {
         active = new ArrayList<Quest>();
         completed = new ArrayList<Quest>();
         failed = new ArrayList<Quest>();
+        journal = new ArrayList<JournalEntry>();
+    }
+
+    public void addJournalEntry(JournalEntry _entry) {
+        journal.add(_entry);
     }
 
     public void addQuest(Quest _quest) {

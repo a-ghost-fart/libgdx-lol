@@ -5,12 +5,12 @@
  </tileset>
  <layer name="derp" width="35" height="25">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3WR05CURgF4AtMFHUBFmAX9oLuAnvdhb1vxL4R+8QCbMQCDPyWgAO5mLyTfMmfc6YveTeEJEmaT0c6hE6ydNFNTzpOX6ZCtQ3uGnUabXDnMiHkKWTi3y++mVfeeKdMhWpo/fbBJ198U6NOI8LWmwqhj34GyJGnkGr9Ns4Ek0xRZJqZCNsSy6ywyhrrbETY9jngkCOOOeE0wnbGORdccsU1NxG2W+6454FHnniOsA0yxDAjjDIWqS8xyxzzLLAYqd9ki2122GUvUv/bf/1fviOSJPmv+QG6c5DUrA0AAA==
+   H4sIAAAAAAAAA+3WSU4CURSF4VvFREEWIFKwCwTp3QUgjTS7oBMU3IhgM2QpQISNiFQx8F+AJpAAF5M6yZfc3PMGb/JSJeLGzfY5M0XO4YUPF/CbOvtPLLA8gdmGg80JzJZHJISwR3+eyO+WmGKG+R9n9u0LK3xjDRsONgrdpSESwBWCsBBC2Dh+l0ASKaSRQRa3Cl0ZFdyjihrqaCh0PfTxiCcMMMSzQveCEcZ4xRve8aHQHeOtbivCfa4RRQw3iBs6+xzyKOAORZSU9k200EYHXTwo7Xf91h/yP8KNm/+aH46RQPqsDQAA
   </data>
  </layer>
- <layer name="collision" width="35" height="25">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMAtqAzTgwseqoiUfBKBgFlAN65NXRPD0KRsEoGAUIAAD4gQ5rrA0AAA==
-  </data>
- </layer>
+ <objectgroup name="collision" width="35" height="25">
+  <object x="2" y="258" width="189" height="29"/>
+  <object x="320" y="255" width="799" height="32"/>
+  <object x="0" y="481" width="1133" height="28"/>
+ </objectgroup>
 </map>
